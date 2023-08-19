@@ -1,0 +1,8 @@
+.ECM-Comapny-Home-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: linear-gradient(#666565, #010111);
+    padding-bottom: 20px;
+}

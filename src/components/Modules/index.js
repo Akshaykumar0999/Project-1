@@ -21,8 +21,8 @@ const VariousModulesDetailsList = [
     {
         id: 2,
         IconComponent: FaHandshake,
-        IconName: "Service Seekers",
-        linkTo: '/',
+        IconName: "Products",
+        linkTo: '/Ecm-details',
         colorName: "#0c0d4a"
     },
     {
