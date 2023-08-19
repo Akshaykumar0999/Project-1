@@ -1,0 +1,18 @@
+.pages-conatiner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 70%;
+}
+.page-item {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    margin: 10px;
+    background-color: #f5f5fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+}
