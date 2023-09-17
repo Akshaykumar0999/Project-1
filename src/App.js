@@ -1,29 +1,39 @@
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
-import Category from './components/category'
+import Home from './components/Home';
+import Category from './components/Category';
+import Company from './components/Company';
+import Purchase from './components/Purchase';
+import Product from './components/Product';
+import Order from './components/Order';
+import Supplier from './components/Supplier';
 import SubCategories from './components/SubCategories';
-import ECMDetails from './components/ECMDetails'
-import ECMCategoryType from './components/ECMCategoryType'
-import ECMCompany from './components/ECMCompany'
-import ECMProduct from './components/ECMProduct'
-import ECMSupplier from './components/ECMSupplier'
-import Dummy from './components/Dummy'
-
+import DummyOne from './components/DummyOne';
+import DummyTwo from './components/DummyTwo';
+import DummyThree from './components/DummyThree';
+import DummyFour from './components/DummyFour';
+import DummyFive from './components/DummyFive';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" Component={Dummy} />
-          <Route exact path="/dashboard/category" Component={Category} />
-          <Route exact path="/dashboard/category/subcategories" Component={SubCategories} />
-          <Route exact path="/Ecm-details" Component={ECMDetails} />
-          <Route exact path="/Ecm-category-type" Component={ECMCategoryType} />
-          <Route exact path="/Ecm-company" Component={ECMCompany} />
-          <Route exact path="/Ecm-product" Component={ECMProduct} />
-          <Route exact path="/Ecm-supplier" Component={ECMSupplier} />
+          <Route path="/dashboard/home" Component={Home} />
+          <Route path="/dashboard/category" Component={Category} />
+          <Route path="/dashboard/company" Component={Company} />
+          <Route path="/dashboard/product" Component={Product} />
+          <Route path="/dashboard/supplier" Component={Supplier} />
+          <Route path="/dashboard/order" Component={Order} />
+          <Route path="/dashboard/category/sub-categories" Component={SubCategories} />
+          <Route path="/dashboard/purchase" Component={Purchase} />
+          <Route path="/dummy-1" Component={DummyOne} />
+          <Route path="/dummy-2" Component={DummyTwo} />
+          <Route path="/dummy-3" Component={DummyThree} />
+          <Route path="/dummy-4" Component={DummyFour} />
+          <Route path="/dummy-5" Component={DummyFive} />
         </Routes>
       </BrowserRouter>
     </div>

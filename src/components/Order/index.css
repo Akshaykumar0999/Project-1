@@ -1,0 +1,151 @@
+.remove-btn {
+    background-color: brown;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+}
+.order-sup-id {
+    width: 15%;
+    text-align: left;
+}
+.order-list-header {
+    font-size: 15px;
+    font-weight: bold;
+    color: #2a2727;
+    text-align: left;
+    width: 15%;
+}
+.edit-botton-class {
+    background-color: rgb(38, 111, 148);
+    color: #ffffff;
+    padding: 3px;
+    border-radius: 5px;
+    margin-right: 4px;
+}
+.remove-botton-class {
+    background-color: rgb(243, 55, 49);
+    color: #ffffff;
+    padding: 3px;
+    border-radius: 5px;
+}
+.save-all-botton-class {
+    background-color: rgb(43, 251, 105);
+    color: #ffffff;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+}
+.button-save-all-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputs-container-cards-is {
+    width: 95%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.purchase-information-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.Purchase-information {
+    font-size: 15px;
+    font-weight: bold;
+    color: #2a2727;
+    text-align: left;
+    width: 100%;
+    border-bottom: 1px solid #a5a3a3;
+    padding-bottom: 5px;
+}
+.purchase-information-containers {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.purchase-input-card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.ul-purchase-conatiner {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 0px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+.li-purchase-card-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2a2727;
+    background-color: #a5a3a3;
+}
+.li-purchase-card {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #2a2727;
+}
+.purchase-list-header {
+    font-size: 15px;
+    font-weight: bold;
+    color: #2a2727;
+    text-align: left;
+    width: 10%;
+}
+.purchase-sup-id {
+    width: 10%;
+    text-align: left;
+}
+.td-data-card {
+    text-align: left;
+}
+@media screen and (max-width: 768px) {
+    .purchase-information-containers {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .purchase-input-card {
+        width: 97%;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 5px;
+    }
+    .inputs-container-cards-is {
+        width: 90%;
+    }
+    .ul-purchase-conatiner {
+        width: 90%;
+    }
+}

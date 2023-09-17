@@ -1,0 +1,30 @@
+.popup-details-card-company {
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: white;
+    max-width: 45em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.popup-container {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.input-card-company {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 15px;
+}
